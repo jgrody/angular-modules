@@ -1,0 +1,7 @@
+<div data-ng-class="displayClass()">
+  <div class="spin-container" data-large-spinner data-ng-show="showSpinner"
+    data-ng-if="!size || size==='large'"></div>
+  <div class="spin-container" data-small-spinner data-ng-show="showSpinner"
+    data-ng-if="size==='small'"></div>
+  <div class="maskable" data-ng-transclude></div>
+</div>
