@@ -1,4 +1,4 @@
-module.exports = function(){
+module.exports = function($filter){
   "ngInject";
   return function(date, format) {
     if (format === "dateOnly") {
