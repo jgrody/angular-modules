@@ -1,0 +1,9 @@
+<div ng-messages="messageFor"
+     role="alert"
+     class="alert"
+     ng-cloak>
+  <div ng-message="required">{{field}} is required</div>
+  <div ng-message="pattern">{{field}} is invalid</div>
+  <div ng-message="minlength">{{field}} is too short</div>
+  <div ng-transclude></div>
+</div>
